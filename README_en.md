@@ -1,6 +1,6 @@
 [简体中文](README.md) | English
-# YOLO_ZOO-PyTorch
-YOLO_ZOO-PyTorch is an end-to-end object detector development kit based on the pytorch framework to reproduce the latest Yolo algorithm. It aims to help developers complete the whole process of detection model training, accuracy and speed optimization, and deployment faster and better. YOLO_ZOO-PyTorch implements a variety of mainstream YOLO target detection algorithms with a modular design, and provides a wealth of modules such as data enhancement, network components, and loss functions.
+# YOLO_ZOO
+YOLO_ZOO is an end-to-end object detector development kit based on the pytorch framework to reproduce the latest Yolo algorithm. It aims to help developers complete the whole process of detection model training, accuracy and speed optimization, and deployment faster and better. YOLO_ZOO implements a variety of mainstream YOLO target detection algorithms with a modular design, and provides a wealth of modules such as data enhancement, network components, and loss functions.
 
 **Currently, all models in the detection library require the use of PyTorch 1.5 and above or the appropriate develop version.**  
 
@@ -90,7 +90,7 @@ YOLO_ZOO-PyTorch is an end-to-end object detector development kit based on the p
 
 ### Code structure description
 ```
-yolodet-pytorch
+yolo_zoo
 ├──cfg              #The directory where the model configuration file is located (yolov5, yolov4, etc.)
 ├──tools            #toolkit, contains training code, test code and inference code entry.
 ├──yolodet          #YOLO detection framework core code base
