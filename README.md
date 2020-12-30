@@ -1,6 +1,6 @@
 简体中文 | [English](README_en.md)
-# YOLO_ZOO-PyTorch
-YOLO_ZOO-PyTorch是端到端基于pytorch框架复现yolo最新算法的目标检测开发套件，旨在帮助开发者更快更好地完成检测模型的训练、精度速度优化到部署全流程。YOLO_ZOO-PyTorch以模块化的设计实现了多种主流YOLO目标检测算法，并且提供了丰富的数据增强、网络组件、损失函数等模块。
+# YOLO_ZOO
+YOLO_ZOO是端到端基于pytorch框架复现yolo最新算法的目标检测开发套件，旨在帮助开发者更快更好地完成检测模型的训练、精度速度优化到部署全流程。YOLO_ZOO-PyTorch以模块化的设计实现了多种主流YOLO目标检测算法，并且提供了丰富的数据增强、网络组件、损失函数等模块。
 
 **目前检测库下模型均要求使用PyTorch 1.5及以上版本或适当的develop版本。**
 ## 内容
@@ -89,7 +89,7 @@ YOLO_ZOO-PyTorch是端到端基于pytorch框架复现yolo最新算法的目标�
 
 ### 代码结构说明
 ```
-yolodet-pytorch
+yolo_zoo
 ├──cfg              #模型配置文件所在目录(yolov5,yolov4等)
 ├──tools            #工具包，包含训练代码，测试代码和推断代码入口。
 ├──yolo_zoo          #YOLO检测框架核心代码库
