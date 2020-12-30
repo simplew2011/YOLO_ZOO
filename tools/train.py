@@ -1,26 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''=================================================
-# @Time    : 2020/8/10 16:58
-# @Author  : wuzhihao
-# @email   : 753993117@qq.com
-# @FileName: train.py
-# @Software: PyCharm
-# @github ：https://github.com/wuzhihao7788/yolodet-pytorch
-
-               ┏┓      ┏┓
-            ┏┛┻━━━┛┻┓
-            ┃              ┃
-            ┃  ┳┛  ┗┳  ┃
-            ┃      ┻      ┃
-            ┗━┓      ┏━┛
-                ┃      ┗━━━-┓
-                ┃Beast god bless┣┓
-                ┃　Never BUG ！ ┏┛
-                ┗┓┓┏━┳┓┏┛
-                  ┃┫┫  ┃┫┫
-                  ┗┻┛  ┗┻┛
-=================================================='''
 
 import argparse
 import copy
@@ -33,19 +12,19 @@ root_path = os.path.abspath(os.path.dirname(current_directory) + os.path.sep + "
 sys.path.append(root_path)
 # os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 import torch
-from yolodet.utils.config import Config
+from yolo_zoo.utils.config import Config
 from tools import file_utils
-from yolodet.utils.Logger import Logging
-from yolodet.utils.collect_env import collect_env
-from yolodet.utils.newInstance_utils import build_from_dict
-from yolodet.utils.registry import DETECTORS,DATASET
-from yolodet.apis.train import set_random_seed,train_detector
-from yolodet.models.utils.torch_utils import select_device
+from yolo_zoo.utils.Logger import Logging
+from yolo_zoo.utils.collect_env import collect_env
+from yolo_zoo.utils.newInstance_utils import build_from_dict
+from yolo_zoo.utils.registry import DETECTORS,DATASET
+from yolo_zoo.apis.train import set_random_seed,train_detector
+from yolo_zoo.models.utils.torch_utils import select_device
 
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='YOLODet train detectors')
+    parser = argparse.ArgumentParser(description='yolo_zoo train detectors')
     parser.add_argument('config', help='train config file path')
     parser.add_argument('--work_dir', help='the dir to save logs and models')
     parser.add_argument(

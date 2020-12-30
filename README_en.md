@@ -1,6 +1,6 @@
 [简体中文](README.md) | English
-# YOLODet-PyTorch
-YOLODet-PyTorch is an end-to-end object detector development kit based on the pytorch framework to reproduce the latest Yolo algorithm. It aims to help developers complete the whole process of detection model training, accuracy and speed optimization, and deployment faster and better. YOLODet-PyTorch implements a variety of mainstream YOLO target detection algorithms with a modular design, and provides a wealth of modules such as data enhancement, network components, and loss functions.
+# YOLO_ZOO-PyTorch
+YOLO_ZOO-PyTorch is an end-to-end object detector development kit based on the pytorch framework to reproduce the latest Yolo algorithm. It aims to help developers complete the whole process of detection model training, accuracy and speed optimization, and deployment faster and better. YOLO_ZOO-PyTorch implements a variety of mainstream YOLO target detection algorithms with a modular design, and provides a wealth of modules such as data enhancement, network components, and loss functions.
 
 **Currently, all models in the detection library require the use of PyTorch 1.5 and above or the appropriate develop version.**  
 
@@ -19,11 +19,11 @@ YOLODet-PyTorch is an end-to-end object detector development kit based on the py
 
 - Rich models:
 
-   YOLODet provides a wealth of models, covering the reproduction of the latest YOLO detection algorithms, include YOLO series target detection algorithms such as YOLOv5, YOLOv4, PP-YOLO, YOLOv3, etc.
+   YOLO_ZOO provides a wealth of models, covering the reproduction of the latest YOLO detection algorithms, include YOLO series target detection algorithms such as YOLOv5, YOLOv4, PP-YOLO, YOLOv3, etc.
 
 - High flexibility:
 
-  YOLODet decouples various components through modular design, and can easily build various detection models based on configuration files.
+  YOLO_ZOO decouples various components through modular design, and can easily build various detection models based on configuration files.
 
 ### Supported models:
 
@@ -131,9 +131,3 @@ Due to the testing framework for personal leisure, in the love of deep learning,
 - YOLOv5: https://github.com/ultralytics/yolov5
 - PP-YOLO: https://arxiv.org/abs/2007.12099
 - PP-YOLO code: https://github.com/PaddlePaddle/PaddleDetection
-
-
-## How To Contribute Code
-
-You are welcome to provide the code for YOLODet and your feedback is greatly appreciated.I will constantly improve and improve the object detection framework of the full series of YOLO based on PyTorch, and I hope more like-minded enthusiasts and practitioners can participate in and jointly maintain this project.
-If you are interested in this, please contact my Gmail address :wuzhihao7788@gmail.com. I look forward to working with you to improve and make progress.

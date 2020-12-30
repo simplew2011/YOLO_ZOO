@@ -1,32 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''=================================================
-# @Time    : 2020/8/20 9:52
-# @Author  : wuzhihao
-# @email   : 753993117@qq.com
-# @FileName: net_forward_test.py 
-# @Software: PyCharm
-# @github ：https://github.com/wuzhihao7788/yolodet-pytorch
 
-               ┏┓      ┏┓
-            ┏┛┻━━━┛┻┓
-            ┃              ┃
-            ┃  ┳┛  ┗┳  ┃
-            ┃      ┻      ┃
-            ┗━┓      ┏━┛
-                ┃      ┗━━━-┓
-                ┃Beast god bless┣┓
-                ┃　Never BUG ！ ┏┛
-                ┗┓┓┏━┳┓┏┛
-                  ┃┫┫  ┃┫┫
-                  ┗┻┛  ┗┻┛
-=================================================='''
 from torchvision import models, transforms
 from PIL import Image
 import torch.nn as nn
 import matplotlib.pyplot as plt
 import numpy as np
-from yolodet.apis.inference import inference_detector,init_detector,show_result,show_result_pyplot
+from yolo_zoo.apis.inference import inference_detector,init_detector,show_result,show_result_pyplot
 import os
 import torch
 

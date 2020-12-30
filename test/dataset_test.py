@@ -1,30 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''=================================================
-# @Time    : 2020/7/28 16:42
-# @Author  : wuzhihao
-# @email   : 753993117@qq.com
-# @FileName: dataset_test.py
-# @Software: PyCharm
-# @github ：https://github.com/wuzhihao7788/yolodet-pytorch
 
-               ┏┓      ┏┓
-            ┏┛┻━━━┛┻┓
-            ┃              ┃
-            ┃  ┳┛  ┗┳  ┃
-            ┃      ┻      ┃
-            ┗━┓      ┏━┛
-                ┃      ┗━━━-┓
-                ┃Beast god bless┣┓
-                ┃　Never BUG ！ ┏┛
-                ┗┓┓┏━┳┓┏┛
-                  ┃┫┫  ┃┫┫
-                  ┗┻┛  ┗┻┛
-=================================================='''
 from cfg import dataset_test
-from yolodet.utils.newInstance_utils import build_from_dict
+from yolo_zoo.utils.newInstance_utils import build_from_dict
 
-from yolodet.utils.registry import DATASET
+from yolo_zoo.utils.registry import DATASET
 import numpy as np
 import cv2
 import os

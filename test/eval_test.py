@@ -1,32 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''=================================================
-# @Time    : 2020/8/21 16:40
-# @Author  : wuzhihao
-# @email   : 753993117@qq.com
-# @FileName: eval_test.py 
-# @Software: PyCharm
-# @github ：https://github.com/wuzhihao7788/yolodet-pytorch
 
-               ┏┓      ┏┓
-            ┏┛┻━━━┛┻┓
-            ┃              ┃
-            ┃  ┳┛  ┗┳  ┃
-            ┃      ┻      ┃
-            ┗━┓      ┏━┛
-                ┃      ┗━━━-┓
-                ┃Beast god bless┣┓
-                ┃　Never BUG ！ ┏┛
-                ┗┓┓┏━┳┓┏┛
-                  ┃┫┫  ┃┫┫
-                  ┗┻┛  ┗┻┛
-=================================================='''
-from yolodet.apis.inference import init_detector
-from yolodet.apis.test import single_gpu_test
-from yolodet.dataset.loader.build_dataloader import build_dataloader
-from yolodet.utils.config import Config
-from yolodet.utils.newInstance_utils import build_from_dict
-from yolodet.utils.registry import DATASET
+from yolo_zoo.apis.inference import init_detector
+from yolo_zoo.apis.test import single_gpu_test
+from yolo_zoo.dataset.loader.build_dataloader import build_dataloader
+from yolo_zoo.utils.config import Config
+from yolo_zoo.utils.newInstance_utils import build_from_dict
+from yolo_zoo.utils.registry import DATASET
 # config = '/disk2/project/pytorch-YOLOv4/cfg/yolov4_hand_gpu.py'
 config = '/disk2/project/pytorch-YOLOv4/cfg/yolov5_hand_gpu.py'
 config = '/disk2/project/pytorch-YOLOv4/cfg/ppyolo_hand_gpu.py'

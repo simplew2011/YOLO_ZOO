@@ -1,26 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''=================================================
-# @Time    : 2020/8/10 17:12
-# @Author  : wuzhihao
-# @email   : 753993117@qq.com
-# @FileName: file_utils.py 
-# @Software: PyCharm
-# @github ：https://github.com/wuzhihao7788/yolodet-pytorch
 
-               ┏┓      ┏┓
-            ┏┛┻━━━┛┻┓
-            ┃              ┃
-            ┃  ┳┛  ┗┳  ┃
-            ┃      ┻      ┃
-            ┗━┓      ┏━┛
-                ┃      ┗━━━-┓
-                ┃Beast god bless┣┓
-                ┃　Never BUG ！ ┏┛
-                ┗┓┓┏━┳┓┏┛
-                  ┃┫┫  ┃┫┫
-                  ┗┻┛  ┗┻┛
-=================================================='''
 import os
 import os.path as osp
 from pathlib import Path

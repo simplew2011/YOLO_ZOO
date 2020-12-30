@@ -1,26 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''=================================================
-# @Time    : 2020/8/31 17:16
-# @Author  : wuzhihao
-# @email   : 753993117@qq.com
-# @FileName: resnet_test
-# @Software: PyCharm
-# @github ：https://github.com/wuzhihao7788/yolodet-pytorch
 
-               ┏┓      ┏┓
-            ┏┛┻━━━┛┻┓
-            ┃              ┃
-            ┃  ┳┛  ┗┳  ┃
-            ┃      ┻      ┃
-            ┗━┓      ┏━┛
-                ┃      ┗━━━-┓
-                ┃Beast god bless┣┓
-                ┃　Never BUG ！ ┏┛
-                ┗┓┓┏━┳┓┏┛
-                  ┃┫┫  ┃┫┫
-                  ┗┻┛  ┗┻┛
-=================================================='''
 #-*- coding:utf-8 -*-
 import random
 imgsz = 640

@@ -1,36 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''=================================================
-# @Time    : 2020/8/13 15:09
-# @Author  : wuzhihao
-# @email   : 753993117@qq.com
-# @FileName: inference.py
-# @Software: PyCharm
-# @github ：https://github.com/wuzhihao7788/yolodet-pytorch
 
-               ┏┓      ┏┓
-            ┏┛┻━━━┛┻┓
-            ┃              ┃
-            ┃  ┳┛  ┗┳  ┃
-            ┃      ┻      ┃
-            ┗━┓      ┏━┛
-                ┃      ┗━━━-┓
-                ┃Beast god bless┣┓
-                ┃　Never BUG ！ ┏┛
-                ┗┓┓┏━┳┓┏┛
-                  ┃┫┫  ┃┫┫
-                  ┗┻┛  ┗┻┛
-=================================================='''
 import argparse
 import random
 import time
 
-from yolodet.apis.inference import inference_detector, init_detector, show_result
+from yolo_zoo.apis.inference import inference_detector, init_detector, show_result
 import os
 import numpy as np
 
-from yolodet.models.utils import torch_utils
-from yolodet.models.utils.torch_utils import select_device
+from yolo_zoo.models.utils import torch_utils
+from yolo_zoo.models.utils.torch_utils import select_device
 
 
 def get_file_realpath(src, *tar):

@@ -1,6 +1,6 @@
 简体中文 | [English](README_en.md)
-# YOLODet-PyTorch
-YOLODet-PyTorch是端到端基于pytorch框架复现yolo最新算法的目标检测开发套件，旨在帮助开发者更快更好地完成检测模型的训练、精度速度优化到部署全流程。YOLODet-PyTorch以模块化的设计实现了多种主流YOLO目标检测算法，并且提供了丰富的数据增强、网络组件、损失函数等模块。
+# YOLO_ZOO-PyTorch
+YOLO_ZOO-PyTorch是端到端基于pytorch框架复现yolo最新算法的目标检测开发套件，旨在帮助开发者更快更好地完成检测模型的训练、精度速度优化到部署全流程。YOLO_ZOO-PyTorch以模块化的设计实现了多种主流YOLO目标检测算法，并且提供了丰富的数据增强、网络组件、损失函数等模块。
 
 **目前检测库下模型均要求使用PyTorch 1.5及以上版本或适当的develop版本。**
 ## 内容
@@ -18,11 +18,11 @@ YOLODet-PyTorch是端到端基于pytorch框架复现yolo最新算法的目标检
 
 - 模型丰富：
 
-  YOLODet提供了丰富的模型，涵盖最新YOLO检测算法的复现，包含YOLOv5、YOLOv4、PP-YOLO、YOLOv3等YOLO系列目标检测算法。
+  YOLO_ZOO提供了丰富的模型，涵盖最新YOLO检测算法的复现，包含YOLOv5、YOLOv4、PP-YOLO、YOLOv3等YOLO系列目标检测算法。
 
 - 高灵活度：
 
-  YOLODet通过模块化设计来解耦各个组件，基于配置文件可以轻松地搭建各种检测模型。
+  YOLO_ZOO通过模块化设计来解耦各个组件，基于配置文件可以轻松地搭建各种检测模型。
 
 ### 支持的模型:
 
@@ -92,7 +92,7 @@ YOLODet-PyTorch是端到端基于pytorch框架复现yolo最新算法的目标检
 yolodet-pytorch
 ├──cfg              #模型配置文件所在目录(yolov5,yolov4等)
 ├──tools            #工具包，包含训练代码，测试代码和推断代码入口。
-├──yolodet          #YOLO检测框架核心代码库
+├──yolo_zoo          #YOLO检测框架核心代码库
 │  ├──apis          #提供检测框架的训练，测试和推断和模型保存的接口
 │  ├──dataset       #包含DateSet，DateLoader和数据增强等通用方法
 │  ├──models        #YOLO检测框架的核心组件集结地
@@ -129,9 +129,3 @@ yolodet-pytorch
 - YOLOv5：https://github.com/ultralytics/yolov5
 - PP-YOLO：https://arxiv.org/abs/2007.12099
 - PP-YOLO code：https://github.com/PaddlePaddle/PaddleDetection
-
-
-## 如何贡献代码
-
-欢迎你为YOLODet提供代码，也十分感谢你的反馈。本人将不断完善和改进这个基于PyTorch实现的YOLO全系列的目标检测框架，并希望更多志同道合的爱好者和从业者能参与进来，共同维护这个项目。
-如有对此感兴趣的同学，可联系我的gmail邮箱:wuzhihao7788@gmail.com,期待与你一起完善和进步。
